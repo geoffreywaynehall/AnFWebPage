@@ -1,0 +1,125 @@
+html, body { margin: 0; padding: 0 }
+
+@font-face {
+    font-family: 'tgr';
+    src: url('../fonts/trade-gothic-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mg';
+    src: url('../fonts/monotype-garamond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.top1 {
+  background-color: #666666;
+  color: white;
+  width: 100%;
+  text-align: center;
+  height: 39px;
+}
+
+.top1 .text {
+  position: relative;
+  top: 11px;
+  font-size: 15px;
+  font-family: "tgr";
+}
+
+.top1 .arrow {
+  position: relative;
+  top: 8px;
+  font-size: 5.5pt;
+  font-family: "tgr";
+}
+
+.top1 .details {
+  position: relative;
+  top: 11px;
+  font-size: 14px;
+  font-family: "mg";
+}
+
+.top2 {
+  background-color: #212121;
+  height: 109px;
+}
+
+.top2 .t2ul {
+  position: absolute;;
+  font-family: "tgr";
+  font-size: 9pt;
+  top: 55px;
+  left: 30px;
+}
+
+.top2 .t2ur {
+  position: absolute;;
+  font-family: "tgr";
+  font-size: 9pt;
+  top: 55;
+  right: 30;
+}
+
+.top2 .t2bl {
+  position: absolute;;
+  font-family: "tgr";
+  font-size: 12pt;
+  top: 102px;
+  left: 30px;
+}
+
+.top2 .t2br{
+  position: absolute;
+  font-family: "tgr";
+  font-size: 12pt;
+  top: 100px;
+  right: 30px;
+}
+
+.search {
+  position: static;
+  background-color: #212121;
+  border: 1px solid #7A7A7A;
+  color: white;
+  height: 30px;
+  width: 105px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  padding: 10px;
+}
+
+/* When the input field gets focus, change its width to 100% */
+.search:focus {
+  width: 150px;
+  outline-width: 0;
+}
+
+.top2 .t2bl .dull {
+  color: #A6A6A6;
+  transition: color .4s ease-in-out;
+    -moz-transition: color .4s ease-in-out;
+    -webkit-transition: color .4s ease-in-out;
+}
+
+.top2 .t2bl .dull:hover{
+  color: white;
+}
+
+.line {
+  position: absolute;
+  top: 84px;
+  color: yellow;
+}
+
+.top3 {
+  background-color: #F3F3EF;
+  height: 35px;
+}
